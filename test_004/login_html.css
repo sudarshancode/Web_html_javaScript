@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+}
+.body{
+    margin:auto 0px;
+    padding: 0px;
+}
+.main-div{
+    background-color: #f0f2f5;
+    height:600px;
+    padding-top: 60px;
+}
+.img-form-container{
+    margin-left: 35%;
+    margin-right: 35%;
+    text-align: center;
+}
+#header-img {
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 70px;
+}
+.login-form-div{
+    background-color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    height: 320px;
+    box-shadow: 0 4px 10px 0 rgba(90, 89, 89, 0.2);
+}
+
+#xyz{
+    font-size: 20px;
+    color: rgb(80, 80, 80);
+}
+#log-deb{
+    padding-top: 45px;
+    margin-bottom:25px ;
+    font-size: 1rem;
+    font-family: initial;
+}
+#user-name{
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    width: 80%;
+    border:2px solid rgb(113, 112, 112);
+}
+#pass-word{
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    width:80%;
+    border:2px solid rgb(113, 112, 112);
+}
+#login-button{
+    padding: 4px;
+    margin-bottom: 35px;
+    width:86%;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: aliceblue;
+    background-color: rgb(232, 71, 12);
+    border-radius: 3px;
+    border: none;
+}
+#login-button:hover{
+    cursor: pointer;
+}
+.login-form-div a{
+    margin-left: 8px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: cornflowerblue;
+}
+.login-form-div a:hover{
+    
+    font-size: 20px;
+    color: red;
+}
+
+.fotter-div{
+    text-align: center;
+    padding-top: 15px;
+}
+.fotter-div a{
+    margin-left: 8px;
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .img-form-container{
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+    }
+}
+
+
+@media only screen and (min-width: 600px) {
+    .img-form-container{
+        margin-left: 21%;
+        margin-right: 21%;
+        text-align: center;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    .img-form-container{
+        margin-left: 28%;
+        margin-right: 28%;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .img-form-container{
+        margin-left: 28%;
+        margin-right: 28%;
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 900px) {
+    .img-form-container{
+        margin-left: 32%;
+        margin-right: 32%;
+        text-align: center;
+    }
+}
+
