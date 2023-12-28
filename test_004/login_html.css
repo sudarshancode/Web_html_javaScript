@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 .body{
     margin:auto 0px;
     padding: 0px;
@@ -5,25 +8,29 @@
 .main-div{
     background-color: #f0f2f5;
     height:600px;
+    padding-top: 60px;
+}
+.img-form-container{
+    margin-left: 35%;
+    margin-right: 35%;
+    text-align: center;
 }
 #header-img {
-    margin-left: 40%;
     margin-bottom: 20px;
     text-align: center;
     padding-top: 70px;
 }
-#xyz{
-    font-size: 20px;
-    color: rgb(80, 80, 80);
-}
 .login-form-div{
     background-color: #fff;
     text-align: center;
-    margin-left: 35%;
-    margin-right: 35%;
     border-radius: 10px;
     height: 320px;
     box-shadow: 0 4px 10px 0 rgba(90, 89, 89, 0.2);
+}
+
+#xyz{
+    font-size: 20px;
+    color: rgb(80, 80, 80);
 }
 #log-deb{
     padding-top: 45px;
@@ -71,7 +78,6 @@
     color: red;
 }
 
-
 .fotter-div{
     text-align: center;
     padding-top: 15px;
@@ -80,3 +86,46 @@
     margin-left: 8px;
     text-decoration: none;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .img-form-container{
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+    }
+}
+
+
+@media only screen and (min-width: 600px) {
+    .img-form-container{
+        margin-left: 21%;
+        margin-right: 21%;
+        text-align: center;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    .img-form-container{
+        margin-left: 28%;
+        margin-right: 28%;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .img-form-container{
+        margin-left: 28%;
+        margin-right: 28%;
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 900px) {
+    .img-form-container{
+        margin-left: 32%;
+        margin-right: 32%;
+        text-align: center;
+    }
+}
+

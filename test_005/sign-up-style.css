@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.main-div{
+    background-color: #f0f2f5;
+    text-align: center;
+    padding-top: 60px;
+    height: 653px;
+    box-sizing: border-box;
+}
+.header-img-form-container{
+    margin-left: 35%;
+    margin-right: 35%;
+}
+.header-img{
+    margin-bottom: 10px;
+}
+.main-form{
+    background-color: #fff;
+    border-radius: 10px;
+}
+#title{
+    justify-content: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.input-fill{
+    outline:none;
+    color: #38393b;
+    margin-bottom: 10px;
+    width:70%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #dddfe2; 
+}
+.input-fill::placeholder{
+    font-weight: bold;
+    color: #969ba1;
+}
+.input-fill:focus{
+    border:1px solid #e95420;
+}
+#sign-up-button{
+    width:70%;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    background-color: rgb(232, 71, 12);
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: aliceblue;
+    padding:5px;
+    border: none;
+    border-radius: 10px; 
+}
+#sign-up-button:hover{
+    cursor: pointer;
+}
+.back-login{
+    margin-left: 15%;
+    padding-bottom: 9px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+    width: 70%;
+    
+}
+.back-login > h6{
+    margin-left: 14%;
+}
+.back-login > a{
+    margin-left:3%;
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(4, 239, 55);
+}
+
+
+
+@media only screen and (max-width: 480px){
+    .header-img-form-container{
+        margin-left: 8%;
+        margin-right: 8%;
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 480px){
+    .header-img-form-container{
+        margin-left: 8%;
+        margin-right: 8%;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    .header-img-form-container{
+        margin-left: 15%;
+        margin-right: 15%;
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 768px){
+    .header-img-form-container{
+        margin-left: 20%;
+        margin-right: 20%;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .header-img-form-container{
+        margin-left: 28%;
+        margin-right: 28%;
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 900px) {
+    .header-img-form-container{
+        margin-left: 32%;
+        margin-right: 32%;
+        text-align: center;
+    }
+}
